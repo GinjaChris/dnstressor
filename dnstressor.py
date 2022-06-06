@@ -12,7 +12,7 @@ def makedns():
 			while length < randlen:
 					randomstring += random.choice(characters)
 					length = length + 1
-			tld = ["com", "net", "xyz", "uk", "co", "cz", "kr", "au", "online", "cn", "hu", "health", "biz", "asia", "as", "auto", "mil", "edu", "int", "data", "bid", "es", "expert", "flight", "game", "gov", "homes", "kp", "kz", "kv",  "ru", "me", "media", "mo", "ng", "nu", "physics", "pl", "pk", "pr", "rs", "salon", "samsung", "silk", "sg", "tf", "ts", "us", "ug", "vip", "vu", "ws", "yt", "zm", "zw"]
+			tld = ["asia", "as", "au", "auto", "bid", "biz", "cn", "co", "com", "cz", "data", "de", "edu", "es", "expert", "flight", "game", "gov", "health", "homes", "hu", "int", "jp", "kp", "kr", "kv", "kz", "ru", "me", "media", "mil", "mo", "net", "ng", "nu", "online", "physics", "pl", "pk", "pr", "rs", "salon", "samsung", "silk", "sg", "tf", "ts", "ug", "uk", "us", "vip", "vu", "ws", "xyz", "yt", "zm", "zw"]
 			tldout = random.choice(tld)
 			nameout = randomstring + "." + tldout
 			print(nameout)
