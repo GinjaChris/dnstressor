@@ -23,13 +23,13 @@ def makedns():
 
 threads = []
 
-for i in range (20):
+for i in range (40):
         t = threading.Thread(target=makedns)
         t.daemon = True
         threads.append(t)
 
-for i in range (20):
+for i in range (40):
         threads[i].start()
 
-for i in range (20):
+for i in range (40):
         threads[i].join()
